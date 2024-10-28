@@ -1,0 +1,27 @@
+{
+    "timestamp": "20241028T092501Z",
+    "ats_score": 60,
+    "job_chances": 40,
+    "missing_skills": [
+        "Cloud Computing",
+        "Cloud Architecture",
+        "Migration",
+        "Deployment",
+        "Kubernetes",
+        "Docker",
+        "Cloud Security",
+        "AWS",
+        "Azure",
+        "Google Cloud"
+    ],
+    "reasons": {
+        "ats_score_reason": "Your resume lacks relevant cloud-related keywords and technologies, which are crucial for a Cloud Engineer role. Although you have experience with Google Flutter and Firebase, they are not directly related to cloud engineering.",
+        "job_chances_reason": "While you have a strong foundation in programming languages and software development, your experience and skills are not directly aligned with the requirements of a Cloud Engineer. Acquiring cloud-related skills and certifications could significantly enhance your job prospects."
+    },
+    "suggestions": [
+        "Incorporate cloud-related keywords and technologies into your resume to better match the job requirements.",
+        "Consider obtaining certifications in cloud computing, such as AWS Certified Cloud Practitioner or Google Cloud Certified - Professional Cloud Developer, to increase your competitiveness for this role.",
+        "Gain hands-on experience with cloud platforms, such as AWS, Azure, or Google Cloud, to develop practical skills in cloud engineering.",
+        "Highlight any relevant projects or experiences that demonstrate your ability to work with cloud technologies, even if they are not directly related to cloud engineering."
+    ]
+}

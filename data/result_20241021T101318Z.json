@@ -1,0 +1,27 @@
+{
+    "timestamp": "20241021T101318Z",
+    "ats_score": 60,
+    "job_chances": 50,
+    "missing_skills": [
+        "Python",
+        "Java",
+        "Golang",
+        "Node.js",
+        "JavaScript",
+        "React",
+        "Angular",
+        "DevOps",
+        "CI/CD pipelines",
+        "Cloud platforms"
+    ],
+    "reasons": {
+        "ats_score_reason": "Your resume lacks relevant keywords such as 'Backend Programming', 'Frontend Application Development', and 'DevOps Environment' which are crucial to the job description. Additionally, your experience with Pega System Architect, although valuable, is not directly applicable to the required skills.",
+        "job_chances_reason": "While your education and training are relevant, your lack of experience with required programming languages, frameworks, and technologies may hinder your chances. Acquiring proficiency in at least one backend programming language and gaining experience with frontend frameworks could significantly enhance your job prospects."
+    },
+    "suggestions": [
+        "Incorporate keywords like 'Backend Programming', 'Frontend Application Development', and 'DevOps Environment' into your resume to better match the job requirements.",
+        "Consider obtaining certifications or training in Python, Java, or Node.js to increase your competitiveness for this role.",
+        "Develop a personal project or contribute to open-source projects to demonstrate your skills in required programming languages and frameworks.",
+        "Highlight transferable skills, such as problem-solving and logical thinking, to demonstrate your potential to learn and adapt to new technologies."
+    ]
+}

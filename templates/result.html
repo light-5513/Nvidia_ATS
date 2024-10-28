@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Analysis Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333333;
+        }
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .back-link, .download-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .back-link:hover, .download-link:hover {
+            text-decoration: underline;
+        }
+        /* Ensure long texts wrap properly */
+        p {
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resume Analysis Results</h1>
+    
+    <section>
+        <h2>ATS Score: {{ ats_score }}/100</h2>
+        <p><strong>Reason:</strong> {{ reasons.ats_score_reason }}</p>
+    </section>
+    
+    <section>
+        <h2>Job Chances: {{ job_chances }}%</h2>
+        <p><strong>Reason:</strong> {{ reasons.job_chances_reason }}</p>
+    </section>
+    
+    <section>
+        <h2>Missing Skills</h2>
+        {% if missing_skills %}
+            <ul>
+                {% for skill in missing_skills %}
+                    <li>{{ skill }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No missing skills.</p>
+        {% endif %}
+    </section>
+    
+    <section>
+        <h2>Suggestions</h2>
+        {% if suggestions %}
+            <ul>
+                {% for suggestion in suggestions %}
+                    <li>{{ suggestion }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No suggestions available.</p>
+        {% endif %}
+    </section>
+    
+    <a href="{{ url_for('index') }}" class="back-link">Analyze Another Resume</a>
+    
+    <section>
+        <h2>Download Analysis</h2>
+        <a href="{{ url_for('download_analysis') }}" class="download-link">Download JSON Report</a>
+    </section>
+</body>
+</html>

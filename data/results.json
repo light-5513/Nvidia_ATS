@@ -1,0 +1,56 @@
+[
+    {
+        "timestamp": "2024-10-21T10:13:18.119896Z",
+        "ats_score": 60,
+        "job_chances": 50,
+        "missing_skills": [
+            "Python",
+            "Java",
+            "Golang",
+            "Node.js",
+            "JavaScript",
+            "React",
+            "Angular",
+            "DevOps",
+            "CI/CD pipelines",
+            "Cloud platforms"
+        ],
+        "reasons": {
+            "ats_score_reason": "Your resume lacks relevant keywords such as 'Backend Programming', 'Frontend Application Development', and 'DevOps Environment' which are crucial to the job description. Additionally, your experience with Pega System Architect, although valuable, is not directly applicable to the required skills.",
+            "job_chances_reason": "While your education and training are relevant, your lack of experience with required programming languages, frameworks, and technologies may hinder your chances. Acquiring proficiency in at least one backend programming language and gaining experience with frontend frameworks could significantly enhance your job prospects."
+        },
+        "suggestions": [
+            "Incorporate keywords like 'Backend Programming', 'Frontend Application Development', and 'DevOps Environment' into your resume to better match the job requirements.",
+            "Consider obtaining certifications or training in Python, Java, or Node.js to increase your competitiveness for this role.",
+            "Develop a personal project or contribute to open-source projects to demonstrate your skills in required programming languages and frameworks.",
+            "Highlight transferable skills, such as problem-solving and logical thinking, to demonstrate your potential to learn and adapt to new technologies."
+        ]
+    },
+    {
+        "timestamp": "2024-10-28T09:25:01.003596Z",
+        "ats_score": 60,
+        "job_chances": 40,
+        "missing_skills": [
+            "Cloud Computing",
+            "Cloud Architecture",
+            "Migration",
+            "Deployment",
+            "Kubernetes",
+            "Docker",
+            "Cloud Security",
+            "AWS",
+            "Azure",
+            "Google Cloud"
+        ],
+        "reasons": {
+            "ats_score_reason": "Your resume lacks relevant cloud-related keywords and technologies, which are crucial for a Cloud Engineer role. Although you have experience with Google Flutter and Firebase, they are not directly related to cloud engineering.",
+            "job_chances_reason": "While you have a strong foundation in programming languages and software development, your experience and skills are not directly aligned with the requirements of a Cloud Engineer. Acquiring cloud-related skills and certifications could significantly enhance your job prospects."
+        },
+        "suggestions": [
+            "Incorporate cloud-related keywords and technologies into your resume to better match the job requirements.",
+            "Consider obtaining certifications in cloud computing, such as AWS Certified Cloud Practitioner or Google Cloud Certified - Professional Cloud Developer, to increase your competitiveness for this role.",
+            "Gain hands-on experience with cloud platforms, such as AWS, Azure, or Google Cloud, to develop practical skills in cloud engineering.",
+            "Highlight any relevant projects or experiences that demonstrate your ability to work with cloud technologies, even if they are not directly related to cloud engineering."
+        ]
+    }
+]
